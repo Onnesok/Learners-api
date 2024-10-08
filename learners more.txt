@@ -1,0 +1,39 @@
+INSERT INTO courses 
+(title, instructor_name, duration, price, release_date, video_content, description, video_title, prerequisite, rating_count, certificate, intro_video, image, stars, discount, category_id) 
+VALUES
+('Figma design principles', 'Taznia Tabassum', '9 hours', 0.00, '2024-08-15', 'video11_id,video12_id', 'Discover the power of collaborative design with our "Introduction to Figma" course. This course is ideal for designers and teams looking to master Figma, the leading tool for interface design and prototyping. Learn how to create intuitive user interfaces, design responsive layouts, and collaborate in real-time with your team. Explore key features such as vector editing, component libraries, and interactive prototypes to bring your design ideas to life. Whether you\'re new to Figma or looking to enhance your skills, this course will equip you with the knowledge to design efficiently and effectively.', 'Figma plugin', 'No prerequisite', 0, FALSE, 'intro_video_id6', '/assets/images/figma.png', 4.8, 'No', 2);
+
+
+
+
+
+
+
+
+
+
+
+
+INSERT INTO courses 
+(title, instructor_name, duration, price, release_date, video_content, description, video_title, prerequisite, rating_count, certificate, intro_video, image, stars, discount, category_id) 
+VALUES
+('JavaScript Essentials', 'John Doe', '10 hours', 49.99, '2024-08-20', 'video21_id,video22_id', 'Learn the fundamentals of JavaScript with our comprehensive course. This course covers core concepts such as variables, functions, objects, and DOM manipulation. Ideal for beginners and intermediate developers, it will help you build interactive web applications and understand the backbone of modern web development.', 'JavaScript basics', 'Basic programming knowledge', 10, TRUE, 'intro_video_id7', '/assets/images/javascript.png', 4.7, '20%', 1),
+('Advanced Python Programming', 'Jane Smith', '12 hours', 69.99, '2024-09-05', 'video31_id,video32_id', 'Enhance your Python skills with advanced programming techniques. This course dives into topics like data analysis, machine learning, and web scraping. Perfect for those who want to expand their Python expertise and tackle more complex projects.', 'Python techniques', 'Basic Python knowledge', 15, TRUE, 'intro_video_id8', '/assets/images/python.png', 4.9, '15%', 3),
+('Digital Marketing Strategies', 'Alice Brown', '8 hours', 39.99, '2024-07-30', 'video41_id,video42_id', 'Master the art of digital marketing with this course, which covers SEO, content marketing, social media strategies, and more. Learn how to drive traffic, increase conversions, and build effective marketing campaigns to boost your online presence.', 'Marketing fundamentals', 'No prerequisite', 20, FALSE, 'intro_video_id9', '/assets/images/marketing.png', 4.6, '10%', 4),
+('Introduction to Data Science', 'Robert Green', '15 hours', 89.99, '2024-09-10', 'video51_id,video52_id', 'Explore the world of data science with this introductory course. Learn about data analysis, visualization, and statistical methods using popular tools like Python and R. This course is designed for aspiring data scientists and analysts who want to gain a solid foundation in data science.', 'Data analysis', 'Basic statistics knowledge', 12, TRUE, 'intro_video_id10', '/assets/images/data_science.png', 4.8, '25%', 5);
+
+
+
+
+
+
+
+INSERT INTO courses 
+(title, instructor_name, duration, price, release_date, video_content, description, video_title, prerequisite, rating_count, certificate, intro_video, image, stars, discount, category_id) 
+VALUES
+('Robotics Programming with Python', 'Michael Johnson', '14 hours', 79.99, '2024-09-25', 'video71_id,video72_id', 'Enhance your robotics programming skills with Python. This course covers advanced programming techniques for robotics, including control systems, automation, and real-world applications. Ideal for those with basic programming knowledge looking to specialize in robotics.', 'Python for robotics', 'Basic programming knowledge', 12, TRUE, 'intro_video_id12', '/assets/images/robotics_python.png', 4.7, '15%', 4),
+
+('Building Autonomous Robots', 'Sophie Lewis', '16 hours', 99.99, '2024-10-05', 'video81_id,video82_id', 'Learn how to design and build autonomous robots that can perform tasks and make decisions on their own. This course covers sensors, machine learning, and algorithms for autonomous operation. Suitable for intermediate learners who want to advance their robotics skills.', 'Autonomous systems', 'Basic robotics knowledge', 10, TRUE, 'intro_video_id13', '/assets/images/robotics_autonomous.png', 4.8, '20%', 4),
+
+('Robotics and Artificial Intelligence', 'David Martinez', '13 hours', 89.99, '2024-10-15', 'video91_id,video92_id', 'Explore the intersection of robotics and artificial intelligence. This course teaches how to integrate AI with robotics to create intelligent systems capable of complex tasks. Learn about neural networks, computer vision, and advanced control techniques.', 'AI in robotics', 'Intermediate robotics knowledge', 9, TRUE, 'intro_video_id14', '/assets/images/robotics_ai.png', 4.6, '10%', 4);
+
